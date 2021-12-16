@@ -1,0 +1,18 @@
+.Cell {
+  height: 5em;
+  width: 5em;
+  border:2px solid #263238;
+  border-radius: 1px;
+  background-color: #263238;
+  transition: background-color 0.7s ease, border 0.3s ease;
+}
+.Cell:hover {
+  border: 2px solid #fed128;
+}
+.Cell-preview {
+  border: 2px solid #fed128;
+}
+.Cell-lit {
+  border: 2px solid #00bcd4;
+  background-color: #00bcd4;
+}
